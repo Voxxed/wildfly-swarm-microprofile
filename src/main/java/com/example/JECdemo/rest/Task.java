@@ -1,8 +1,6 @@
 package com.example.JECdemo.rest;
 
-import javax.annotation.Generated;
 import javax.annotation.PostConstruct;
-import javax.ejb.Local;
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
 import java.time.LocalDateTime;
