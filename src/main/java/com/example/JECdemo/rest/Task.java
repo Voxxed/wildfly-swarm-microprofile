@@ -7,9 +7,6 @@ import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
 import java.time.LocalDateTime;
 
-/**
- * Created by katharinevoxxed on 24/01/2017.
- */
 @RequestScoped
 public class Task {
 

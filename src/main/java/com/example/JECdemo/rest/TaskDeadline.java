@@ -5,9 +5,6 @@ import javax.enterprise.context.RequestScoped;
 import javax.ws.rs.Produces;
 import java.time.LocalDateTime;
 
-/**
- * Created by katharinevoxxed on 24/01/2017.
- */
 @RequestScoped
 public class TaskDeadline {
 

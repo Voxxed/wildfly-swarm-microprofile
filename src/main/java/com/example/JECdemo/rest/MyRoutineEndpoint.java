@@ -1,6 +1,5 @@
 package com.example.JECdemo.rest;
 
-import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 import javax.json.Json;
 import javax.json.JsonBuilderFactory;
@@ -23,6 +22,24 @@ public class MyRoutineEndpoint {
         return Response.ok("Tasks for " + weekday).build();
     }
 
+    //POST with basic response
+    /*@POST
+    @Consumes("text/plain")
+    public Response doPost(String task) {
+        //Save to task database
+        return Response.ok("Todo :" + task).build();
+    }*/
+
+    //POST with injected task
+    /*@POST
+    @Consumes("text/plain")
+    public Response doPost(String taskTitle) {
+        task.setTaskTitle(taskTitle);
+        //Save to task database
+        return Response.ok("Todo: " + task.toString()).build();
+    }*/
+
+    //POST with JSON response
     @POST
     @Consumes("text/plain")
     public Response doPost(String taskTitle) {
