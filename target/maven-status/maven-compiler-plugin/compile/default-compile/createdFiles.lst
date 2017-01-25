@@ -1,0 +1,6 @@
+com/example/JECdemo/rest/Task.class
+com/example/JECdemo/rest/TaskDeadline.class
+com/example/JECdemo/rest/DateProducer.class
+com/example/JECdemo/rest/MyRoutineEndpoint.class
+com/example/JECdemo/rest/MyTimeResource.class
+com/example/JECdemo/rest/HelloWorldEndpoint.class
